@@ -38,3 +38,23 @@ Developed using **Python** and run on **Google Colab** / **Jupyter Notebook**, t
 ```bash
 git clone https://github.com/yourusername/Peter-Lynch-Chatbot.git
 cd Peter-Lynch-Chatbot
+
+Streamlit instructions for Macbook Users:
+2. Install Streamlit
+Use pip to install Streamlit:
+pip3 install streamlit
+3. Verify Installation
+Confirm that Streamlit is installed by checking its version:
+streamlit --version
+4. Run the App (lynchapp.py)
+Execute the app using the streamlit run command:
+streamlit run lynchapp.py
+5. Access the App
+The app will open automatically in your default browser. If not, check the terminal output for a URL (e.g., http://localhost:8501) and open it manually.
+6. Troubleshooting
+Port Issues: If the default port is occupied, specify another port:
+streamlit run app.py --server.port 8502
+Environment Setup: Use a virtual environment for Streamlit to avoid conflicts:
+python3 -m venv myenv
+source myenv/bin/activate
+pip install streamlit
